@@ -1,3 +1,30 @@
+# Note It Down
+ 
+Note It Down is -
+<ul>
+   <li>A Notes making website where a user can create and save notes.</li>
+   <li>Users can create new note, update their note content as well as title, switch between 
+       notes, and delete their notes.</li>
+   <li>Developed Using: ReactJS, HTML, CSS, React Quill, Material-UI, Firebase.</li>
+ </ul>
+
+# To run app on local host -
+   
+   <ul>
+  <li> First clone the repository or download the code zip file and extract it. </li>
+  <li> Go to firebase and create a new project and connect it with firebase cloud database. </li>
+  <li> Initialize the database with two collections namely <code>notes</code> and <code>users</code> </li>
+  <li> Go to authentication section and under sign-in methods enable email/password option.</li>
+  <li> In project settings go to general settings and find SDK setup and configuration. </li>
+  <li> Select config radio button and copy the api credentials and replace them in <code>index.js</code> file inside <code>src</code> folder </li>
+  <li> Now in order to install react-scripts open command prompt/powershell in the project folder.</li>
+  <li> Now run this command in powershell/cmd window <code>npm install react-scripts</code></li>
+  <li> Now run the command <code>npm start</code> </li>
+  <li> It will redirect you to your browser and open the website in localhost:3000 </li>
+  <li> Follow the steps properly and you are good to go. </li>
+  </ul>
+   
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
