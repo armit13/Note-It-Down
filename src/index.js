@@ -10,13 +10,13 @@ require('firebase/firestore');
 
   // Initialize Firebase
   firebase.initializeApp({
-    apiKey: "AIzaSyAQvrc3H2pNEOWH5C1KGZBCXUn8-Gw-Slk",
-    authDomain: "noteitdown-b89d4.firebaseapp.com",
-    projectId: "noteitdown-b89d4",
-    storageBucket: "noteitdown-b89d4.appspot.com",
-    messagingSenderId: "582629202014",
-    appId: "1:582629202014:web:7ec41092cfb27be34b3ccf",
-    measurementId: "G-L51G6CH089"
+    apiKey: "your firebase api key",
+    authDomain: "your authorised domain",
+    projectId: "your project id",
+    storageBucket: "your storageBucke",
+    messagingSenderId: "your messagingSenderId",
+    appId: "your appId",
+    measurementId: "your measurementId"
   });
   firebase.analytics();
 
